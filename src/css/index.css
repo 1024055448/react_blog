@@ -1,0 +1,69 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*login*/
+.login,.register{
+	position:absolute; 
+	width:100%; 
+	height:100%; 
+	z-index:1;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-image: url('../images/login_bkg.jpg');
+}
+.login-form , .register-form {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+  top: 30%;
+  max-width: 300px;
+}
+.login-form .login-form-forgot,.register-form .login-form-forgot{
+  float: right;
+}
+.login-form .login-form-button , .register-form .login-form-forgot{
+  width: 100%;
+}
+.login-form h2 , .register-form h2{
+	line-height: 4.4rem;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+}
+.home {
+  width: 12.5rem;
+  height: 100%;
+  color: #fff;
+/*  background: url('../images/home-logo.jpg');
+*//*  margin-left: -3.5%;
+*/ /* background: rgba(255,255,255,.2);  
+  margin: 16px 28px 16px 0;*/
+  float: left;
+}
+.Logout{
+	float: right;
+	font-size: 18px;
+  	color: #fff;
+}
+.homeContent li{
+list-style: none;
+}
+.editTime{
+  font-size:10px;
+  position:absolute;
+  bottom:0;
+  right: 0;
+}
